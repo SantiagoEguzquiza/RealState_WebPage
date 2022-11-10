@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+#propiedades {
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#propiedades h1 {
+    font-family: sans-serif;
+    font-size: large;
+    color: orangered;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#propiedades img {
+    width: 100%;
+    padding: -10px;
+}
+
+#propiedades a {
+    height: 350px;
+    width: 250px;
+    position: relative;
+}
+
+#propiedades .casasEnVenta {
+    position: relative;
+    float: left;
+    margin: 30px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#propiedades .casasEnVenta:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#propiedades a p {
+    font-family: sans-serif;
+    font-size: 11pt;
+    font-weight: 100;
+    padding: 5%;
+    color: #696969
+}
+
+.imagen {
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+#propiedades .casasEnVenta .imagen img {
+    justify-items: center;
+}
+
+#prop {
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.precio #price {
+    position: absolute;
+    right: 5%;
+    font-weight: 700;
+    font-size: 12pt;
+    color: black;
+}
+
+.metrosCuadrados #medidas {
+    position: absolute;
+    font-weight: 100;
+    color: gray;
+}

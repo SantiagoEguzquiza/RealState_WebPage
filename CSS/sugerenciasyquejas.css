@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+.fotoFondo {
+    background-image: url(../IMAGENES/Fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fotoFondo .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-weight: 700;
+}
+
+.fotoFondo .form {
+    background-color: rgba(0, 0, 0, .6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.fotoFondo .form .form-label {
+    display: block;
+    color: #696969;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.fotoFondo .form .form-input,
+.form-textarea {
+    background: rgba(0, 0, 0, .9);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid orangered;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.fotoFondo .form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 80px;
+}
+
+.fotoFondo .form .btn-submit {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    background: orangered;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+.fotoFondo .form .btn-submit:hover {
+    background: orange;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#sugerencia {
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

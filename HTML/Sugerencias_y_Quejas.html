@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas y sugerencias</title>
+    <link rel="stylesheet" href="../CSS/sugerenciasyquejas.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="header">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="../HTML/PaginaPrincipal.html" class="enlace">
+            <img src="../IMAGENES/CASITA COLOR LATERAL.png" alt="Logo de la empresa" class="logo">
+        </a>
+        <ul class="nav-menu">
+            <li><a href="../HTML/Propiedades.html">Propiedades</a></li>
+            <li><a href="../HTML/QuienesSomos.html">Quienes somos</a></li>
+            <li><a href="../HTML/Sugerencias_y_Quejas.html" id="sugerencia">Consultas y sugerencias</a></li>
+            <li><a href="../HTML/Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="fotoFondo">
+        <form action="" class="form">
+            <div class="form-header">
+                <h1 class="form-title">Deje su consulta</h1>
+            </div>
+
+            <label for="nombre" class="form-label"></label>
+            <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre" required>
+
+            <label for="apellido" class="form-label"></label>
+            <input type="text" id="apellido" class="form-input" placeholder="Escriba su apellido" required>
+
+            <label for="e-mail" class="form-label"></label>
+            <input type="email" id="e-mail" class="form-input" placeholder="Escriba su e-mail" required>
+
+            <label for="direccion" class="form-label"></label>
+            <input type="text" id="direccion" class="form-input" placeholder="Escriba su direccion">
+
+            <label for="telefono" class="form-label"></label>
+            <input type="number" id="telefono" class="form-input" placeholder="Escriba su telefono" required>
+
+            <label for="comentario" class="form-label"></label>
+            <textarea type="text" id="comentario" class="form-textarea" placeholder="Escriba su comentario"
+                required></textarea>
+
+            <input type="submit" class="btn-submit" value="Enviar">
+        </form>
+    </div>
+
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+    </section>
+</body>
+
+</html>
